@@ -1,0 +1,23 @@
+/* pages/toast/index.wxss */
+.container {
+  padding: 5px;
+}
+
+.button {
+  margin: 5px 0px;
+}
+.inputTitle {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.inputContent {
+  border: 1px solid #DDD;
+  background-color: #EEE;
+  width: 98%;
+  padding: 1%;
+  font-size: 14px;
+  color: #333;
+}

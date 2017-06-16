@@ -1,0 +1,13 @@
+<!--pages/toast/index.wxml-->
+<include src="../../libs/weToast/weToast.wxml" />
+
+<view class="container">
+
+  <input placeholder="标题（可选）" value="{{ defaultTitle }}" class="inputTitle" />
+  <textarea placeholder="内容" value="{{ defaultContent }}" class="inputContent" />
+
+  <button bindtap="showSuccess" class="button" type="primary" data-icon="success">success</button>
+  <button bindtap="showWarning" class="button" data-icon="warning">warning</button>
+  <button bindtap="showError" class="button" data-icon="error">error</button>
+  <button bindtap="showInfo" class="button" data-icon="info">info</button>
+</view>

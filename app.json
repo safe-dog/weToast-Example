@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/toast/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "weToast",
+    "navigationBarTextStyle":"black"
+  }
+}
