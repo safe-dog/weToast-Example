@@ -3,11 +3,11 @@
 
 <view class="container">
 
-  <input placeholder="标题（可选）" value="{{ defaultTitle }}" class="inputTitle" />
-  <textarea placeholder="内容" value="{{ defaultContent }}" class="inputContent" />
+  <input placeholder="标题（可选）" value="{{ title }}" class="inputTitle" bindinput="inputTitleHandler" />
+  <textarea placeholder="内容" value="{{ content }}" class="inputContent" bindinput="inputContentHandler" />
 
-  <button bindtap="showSuccess" class="button" type="primary" data-icon="success">success</button>
-  <button bindtap="showWarning" class="button" data-icon="warning">warning</button>
-  <button bindtap="showError" class="button" data-icon="error">error</button>
-  <button bindtap="showInfo" class="button" data-icon="info">info</button>
+  <button bindtap="toastHandler" class="button" type="primary" data-icon="success">success</button>
+  <button bindtap="toastHandler" class="button" data-icon="warning">warning</button>
+  <button bindtap="toastHandler" class="button" data-icon="error">error</button>
+  <button bindtap="toastHandler" class="button" data-icon="info">info</button>
 </view>
