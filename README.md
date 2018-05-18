@@ -3,4 +3,4 @@
 
 直接clone到本地，然后使用微信小程序开发工具加载即可
 
-![](libs/weToast/screenshots/screen.png)
+![](https://raw.githubusercontent.com/safe-dog/weToast/master/screenshots/screen.png)
