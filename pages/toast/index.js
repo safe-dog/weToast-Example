@@ -17,7 +17,7 @@ Page({
    */
   onLoad: function (options) {
     toast = new weToast(this);
-    toast.setDelay(2000);
+    toast.setDelay(5000);
     toast.success('欢迎使用weToast！') ;
   },
 

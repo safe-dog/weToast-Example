@@ -11,3 +11,7 @@
   <button bindtap="toastHandler" class="button" data-icon="error">error</button>
   <button bindtap="toastHandler" class="button" data-icon="info">info</button>
 </view>
+
+<canvas class="canvas">
+  <canvas class="canvas-left" />
+</canvas>
